@@ -17,6 +17,6 @@ problem2 (Ai x c) = case x of
 
 {-
 
-
+Problem 3:
 
 -}
