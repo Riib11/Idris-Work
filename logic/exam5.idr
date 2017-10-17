@@ -4,9 +4,9 @@ import Logic
 
 Problem 2:
 
-    (A \/ B) /\ C
+(A \/ B) /\ C
 ----------------------
- (A /\ C) \/ (B /\ C)
+(A /\ C) \/ (B /\ C)
 
 -}
 
@@ -19,4 +19,11 @@ problem2 (Ai x c) = case x of
 
 Problem 3:
 
+¬(A ↔ B)
+-----------
+¬(B ↔ A)
+
 -}
+
+-- problem3 : Nt (And (a -> b) (b -> a)) -> Nt (And (b -> a) (a -> b))
+-- problem3 = ?pf
